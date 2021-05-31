@@ -19,8 +19,8 @@ class Course {
 // Recent Courses
 var recentCourses = [
   Course(
-    courseTitle: "Flutter for Designers",
-    courseSubtitle: "12 sections",
+    courseTitle: "จำแนกวิเคราะห์ อ้อยสด-อ้อยไฟไหม้",
+    courseSubtitle: "OCR,LineSensor",
     background: LinearGradient(
       begin: Alignment.topLeft,
       end: Alignment.bottomRight,
@@ -33,8 +33,8 @@ var recentCourses = [
     logo: 'flutter-logo.png',
   ),
   Course(
-    courseTitle: "Prototyping with ProtoPie",
-    courseSubtitle: "10 sections",
+    courseTitle: "จำแนกผลึกน้ำตาลในกระบวนการผลิต",
+    courseSubtitle: "Process Control",
     background: LinearGradient(
       begin: Alignment.topLeft,
       end: Alignment.bottomRight,
@@ -47,8 +47,8 @@ var recentCourses = [
     logo: 'protopie-logo.png',
   ),
   Course(
-    courseTitle: "Build an app with SwiftUI",
-    courseSubtitle: "22 sections",
+    courseTitle: "แจ้งเตือนลำเลียงกากอ้อย Feed Boiler",
+    courseSubtitle: "CNNs Detection",
     background: LinearGradient(
       begin: Alignment.topLeft,
       end: Alignment.bottomRight,
