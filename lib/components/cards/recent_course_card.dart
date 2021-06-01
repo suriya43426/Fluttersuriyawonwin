@@ -4,7 +4,7 @@ import 'package:suriyawonwin/model/course.dart';
 import '../../constants.dart';
 
 class ResentCourseCard extends StatelessWidget {
-  ResentCourseCard({required this.course});
+  ResentCourseCard({@required this.course});
   Course course;
   @override
   Widget build(BuildContext context) {

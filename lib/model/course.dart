@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class Course {
   Course({
-    required this.courseTitle,
-    required this.courseSubtitle,
-    required this.background,
-    required this.illustration,
-    required this.logo,
+    this.courseTitle,
+    this.courseSubtitle,
+    this.background,
+    this.illustration,
+    this.logo,
   });
 
   String courseTitle;
@@ -75,8 +75,8 @@ var exploreCourses = [
           Color(0xFF1997AB),
         ],
       ),
-      illustration: 'illustration-04.png',
-      logo: ""),
+      illustration: 'illustration-04.png'
+  ),
   Course(
     courseTitle: "Build an app with SwiftUI",
     courseSubtitle: "22 sections",
@@ -89,7 +89,6 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-05.png',
-    logo: "",
   ),
 ];
 
@@ -107,7 +106,6 @@ var continueWatchingCourses = [
       ],
     ),
     illustration: 'illustration-06.png',
-    logo: "",
   ),
   Course(
     courseTitle: "Animating in Principle",
@@ -121,7 +119,6 @@ var continueWatchingCourses = [
       ],
     ),
     illustration: 'illustration-07.png',
-    logo: "",
   ),
 ];
 
@@ -139,7 +136,6 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-01.png',
-    logo: "",
   ),
   Course(
     courseTitle: "Flutter for Designers",
@@ -153,7 +149,6 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-08.png',
-    logo: "",
   ),
   Course(
     courseTitle: "ProtoPie Prototyping",
@@ -167,7 +162,6 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-09.png',
-    logo: "",
   ),
   Course(
     courseTitle: "UI Design Course",
@@ -181,7 +175,6 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-10.png',
-    logo: "",
   ),
   Course(
     courseTitle: "React for Designers",
@@ -195,7 +188,6 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-11.png',
-    logo: "",
   ),
 ];
 
@@ -213,7 +205,6 @@ var completedCourses = [
       ],
     ),
     illustration: 'illustration-12.png',
-    logo: "",
   ),
   Course(
     courseTitle: "Swift Advanced",
@@ -227,6 +218,5 @@ var completedCourses = [
       ],
     ),
     illustration: 'illustration-13.png',
-    logo: "",
   ),
 ];

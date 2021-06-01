@@ -6,7 +6,7 @@ class SidebarItem{
   LinearGradient background;
   Icon icon;
 
-  SidebarItem({required this.title, required this.background, required this.icon});
+  SidebarItem({this.title, this.background, this.icon});
 
 }
 

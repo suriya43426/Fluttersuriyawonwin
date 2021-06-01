@@ -3,7 +3,7 @@ import 'package:suriyawonwin/constants.dart';
 import 'package:suriyawonwin/model/sidebar.dart';
 
 class SidebarRow extends StatelessWidget {
-  SidebarRow({required this.item});
+  SidebarRow({@required this.item});
 
   final SidebarItem item;
 

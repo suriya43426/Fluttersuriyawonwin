@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:suriyawonwin/model/course.dart';
 
-import 'cards/recent_course_card.dart';
+import '../cards/recent_course_card.dart';
 
 class RecentCourseList extends StatefulWidget {
   @override
